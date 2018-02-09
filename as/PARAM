@@ -1,0 +1,86 @@
+C PARAM.N is modestly dimensioned for usage of all AS options. *** f77 & f95 ***
+C
+C PRIMARY DIMENSIONS FOR AUTOSTRUCTURE; SEE SR.ZERO FOR MORE DETAILED NOTES.
+C
+      INTEGER MXDIM
+      INTEGER MXAAI,MXAAK,MAXAD,MXADJ,MXAJS,MAXB1,MXBIF,MXBLM,MAXCA
+     X       ,MAXCF,MAXCL,MAXDC,MAXDF,MXDFS,MAXDI,MAXDK,MXEL0,MXENG
+     X       ,MXEST,MXFSL,MAXGR,MXGRB,MAXJG,MAXJU,MAXLL,MAXLV,MAXMI
+     X       ,MXNOR,MXPOT,MAXRK,MXRKO,MAXRL,MXRLO,MXRSS,MAXSL,MXSOC
+     X       ,MXSOI,MXST0,MAXTM,MAXTR,MAXUC,MXRKS,MXRLS,MXROS,MXS1C
+     X       ,MXS1I,MXS2C,MXS2I,MAXB2,MAXCT,MXVAR,MXFSS,MXFOO
+     X       ,MXCHG,MXSTX,MXSYJ,mxlfr,mxlrl                        !DW, mxlfr,mxlrl f77 ONLY
+C
+      PARAMETER (MXDIM=56)       !No. of active dimension variables.
+C
+      PARAMETER (MXAAI= 22500)   !No. of distinct bound-continuum LSp H-matrix elements.
+      PARAMETER (MXAAK= 22500)   !No. of distinct bound-continuum Jp H-matrix elements.
+      PARAMETER (MAXAD=199000)   !Total no. of distinct H-matrix elements, SLp.
+      PARAMETER (MXADJ=330000)   !Total no. of distinct H-matrix elements, Jp.
+      PARAMETER (MXAJS= MXADJ)   !Ditto, set =MXADJ for 2-body f-s else =1.
+      PARAMETER (MAXB1= 15000)   !No. of radial mesh points.
+      PARAMETER (MXBIF=  1000)   !No. of Born interactions per state (LS or IC)
+      PARAMETER (MXBLM=     8)   !Max Born/E_k lambda multipole retained.
+      PARAMETER (MAXCA=  7100)   !No. of cascade coefficients (Jp).
+      PARAMETER (MAXCF=   250)   !No. of configurations.
+      PARAMETER (MAXCL=   100)   !No. of closed-shell electrons.
+      PARAMETER (MAXDC=1999990)   !Total no. of vector coupling coefficients.
+      PARAMETER (MAXDF=   120)   !Total no. of terms in a subconfiguration.
+      PARAMETER (MXDFS=   300)   !Size of factorial array MAX(n!)=MXDFS/2-1 ~2l.
+      PARAMETER (MAXDI=   300)   !No. of terms within an SLp group.
+      PARAMETER (MAXDK=   300)   !No. of levels within a Jp group.
+      PARAMETER (MXEL0=    30)   !No. of valence electrons.
+      PARAMETER (MXENG=    45)   !No. of continuum interpolation energies.
+      PARAMETER (MXEST=300000)   !No. of valence electrons * Total no. of Slater states.
+      PARAMETER (MXFSL= 15000)   !No. of bound-continuum Slater integrals.
+      PARAMETER (MXFSS= 55000)   !No. of bound-cont 2-body f-s integrals.
+      PARAMETER (MXFOO= MXFSL)   !No. of bound-cont 2-body non-f-s ints. =1 or MXFSL.
+      PARAMETER (MAXGR=    30)   !No. of (distinct) bound orbitals.
+      PARAMETER (MXGRB=    10)   !No. of non-core bound orbitals for Born (min 2).
+      PARAMETER (MAXJG=    99)   !No. of distinct level (Jp) groups.
+      PARAMETER (MAXJU=650000)   !Total no. of CI mixing coefficients (Jp).
+      PARAMETER (MAXLL=     8)   !Largest angular momentum of stored VCC.
+      PARAMETER (MAXLV=  3500)   !Total no. of levels.
+      PARAMETER (MAXMI= 50000)   !No. of Breit-Pauli integrals, N and V.
+      PARAMETER (MXNOR=     1)   !No. of non-vanishing E1 rates for cascade coeffs.
+      PARAMETER (MXPOT=     4)   !No. of distinct l-dependent potentials stored.
+      PARAMETER (MAXRK=450000)   !No. of Slater integral coeffs. and E1/E2 mx elements.
+      PARAMETER (MXRKO= MAXRK)   !No. of Orbit-Orbit integral coeffs.=1 or MAXRK.
+      PARAMETER (MAXRL=  9998)   !No. of Slater integrals R, term resolved.
+      PARAMETER (MXRLO= MAXRL)   !No. of Orbit-Orbit integrals: =1 or MAXRL.
+      PARAMETER (MXRSS=500000)   !No. of Breit-Pauli magnetic integral alg. coeffs.
+      PARAMETER (MAXSL=   300)   !No. of distinct term (SLp) groups.
+      PARAMETER (MXSOC= 75000)   !No. of spin-orbit integral algebraic coeffs.
+      PARAMETER (MXSOI=  5000)   !No. of spin-orbit integrals, zeta.
+      PARAMETER (MXST0=150050)   !Total no. of Slater states.
+      PARAMETER (MAXTM=  3000)   !Total no. of terms.
+      PARAMETER (MAXTR=  7500)   !No. of term coupling coefficients (x2).
+      PARAMETER (MAXUC=350000)   !Total no. of CI mixing coefficients (SLp).
+C
+C NEW PARAMETERS PERTAINING TO DW EXCITATION (SUBJECT TO CHANGE)
+C
+      PARAMETER (MXCHG=MAXSL/2)   !No. of target SLp groups contrib to SLp symmetry.
+      PARAMETER (MXSYJ=MAXJG/2)   !No. of SLp symms which contrib to Jp symmetry.
+      PARAMETER (MXSTX=300000)   !No. of one-body Slater state interactions (also for s-o now).
+      parameter (mxlfr=    15)   !No. of cont. orbital l contrib to total L/J. (F77 ONLY)
+      parameter (mxlrl=     0)   !No. of total L-1 Slater Integrals stored for, =0 LS. (F77 ONLY)
+C
+C ALSO, THE FOLLOWING DIMENSIONS ARE GOVERNED BY THE N+1 PROBLEM, REST TARGET ONLY.
+C     MAXAD,MXADJ,MAXRK,MXRKO,MAXRL,MXRLO,MXRSS,MAXMI,MAXSL,MAXJG
+C
+C PARAMETERS PERTAINING TO SLATER STATE INTERACTIONS (TAKE CARE FOR DW)
+C
+      PARAMETER (MXRKS= MAXRK)   !As MAXRK, MAXRL but resolved by Slater state
+      PARAMETER (MXRLS= MAXRL)   !AND for a single symmetry ONLY.
+      PARAMETER (MXROS= MXRKS)   !As MXRKO but resolved by Slater state, =1 or MXRKS.
+      PARAMETER (MXS1C= MXSOC)   !As MXSOC, MXSOI but resolved by Slater state
+      PARAMETER (MXS1I= MXSOI)   !AND for a single LSJP symmetry ONLY.
+      PARAMETER (MXS2C= MXRSS)   !As MXRSS, MXAMI but resolved by Slater state
+      PARAMETER (MXS2I= MAXMI)   !AND for a single LSJP symmetry ONLY.
+C
+C THESE DIMENSIONS ARE NO LONGER INDEPENDENT OF THE ABOVE AND SHOULD NOT BE CHANGED
+C
+      PARAMETER (MAXB2=MAXB1)
+      PARAMETER (MAXCT=MAXTM)
+      PARAMETER (MXVAR=3*MAXGR)
+C
