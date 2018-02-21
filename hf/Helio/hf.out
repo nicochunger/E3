@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+                      =============================
+                       H A R T R E E - F O C K . 86
+                      =============================
+
+
+               THE DIMENSIONS FOR THE CURRENT VERSION ARE:
+                          NWF= 30        NO=220
+
+
+
+ START OF CASE
+ =============
+
+
+
+
+
+          WEAK ORTHOGONALIZATION DURING THE SCF CYCLE=   T
+          SCF CONVERGENCE TOLERANCE (FUNCTIONS)      = 1.00D-08
+          NUMBER OF POINTS IN THE MAXIMUM RANGE      = 220
+
+
+          ITERATION NUMBER  1
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   1.4D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8744186      4.9086943   1.0000000*   1.21D-01
+                     1s      1.7997027      4.7598197   1.0000000*   2.91D-02
+                     1s      1.8350564      4.7554069   1.0000000*   1.02D-03
+
+
+          ITERATION NUMBER  2
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.8D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8356981      4.7543603   1.0000000*   3.08D-04
+                     1s      1.8358204      4.7536604   1.0000000*   1.50D-04
+                     1s      1.8358915      4.7533819   1.0000000*   4.80D-05
+
+
+          ITERATION NUMBER  3
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   5.7D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8359109      4.7533347   1.0000000*   1.02D-05
+                     1s      1.8359116      4.7533085   1.0000000*   4.44D-06
+
+
+          ITERATION NUMBER  4
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   1.1D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8359115      4.7533022   1.0000000*   1.57D-06
+                     1s      1.8359114      4.7532982   1.0000000*   8.23D-07
+
+
+          ITERATION NUMBER  5
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.3D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8359112      4.7532971   1.0000000*   3.20D-07
+                     1s      1.8359112      4.7532964   1.0000000*   1.72D-07
+
+
+          ITERATION NUMBER  6
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   4.5D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8359112      4.7532962   1.0000000*   6.85D-08
+
+
+          ITERATION NUMBER  7
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   9.1D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      1.8359111      4.7532961   1.0000000*   3.75D-08
+
+
+ END OF CASE
+ ===========
+
+
