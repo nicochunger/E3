@@ -8,3 +8,67 @@
                       =============================
                        H A R T R E E - F O C K . 86
                       =============================
+
+
+               THE DIMENSIONS FOR THE CURRENT VERSION ARE:
+                          NWF= 30        NO=220
+
+
+
+ START OF CASE
+ =============
+
+
+
+
+
+          WEAK ORTHOGONALIZATION DURING THE SCF CYCLE=   T
+          SCF CONVERGENCE TOLERANCE (FUNCTIONS)      = 1.00D-08
+          NUMBER OF POINTS IN THE MAXIMUM RANGE      = 220
+
+
+          ITERATION NUMBER  1
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   1.0D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      0.1249128      1.7963836   1.0000000*   2.86D-01
+          ED =  -0.116060; ADJUSTED TO ALLOWED MINIMUM ENERGY
+                     1s      0.0000444      0.7444356   1.0000000*   5.83D-01
+                     1s      1.2029058      1.1265455   1.0000000*   2.34D-01
+
+
+          ITERATION NUMBER  2
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.0D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+                     1s      0.3320969      1.7443881   1.0000000*   1.90D-01
+          ED =  -0.090496; ADJUSTED TO ALLOWED MINIMUM ENERGY
+                     1s      0.0000444      0.6116079   1.0000000*   6.39D-01
+                     1s      0.6837836      1.8611430   1.0000000*   4.16D-01
+
+
+          ITERATION NUMBER  3
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   4.0D-08
+
+
+                     EL         ED             AZ           NORM       DPM
+          ED =  -0.130759; ADJUSTED TO ALLOWED MINIMUM ENERGY
+          METHOD 2 UNABLE TO SOLVE EQUATION FOR ELECTRON 1s
+          NC =   2   NJ = 143   ED =   0.000044   EL =   0.000044   EU =   0.562500
+          ED =  -0.130759; ADJUSTED TO ALLOWED MINIMUM ENERGY
+          METHOD 2 UNABLE TO SOLVE EQUATION FOR ELECTRON 1s
+          NC =   2   NJ = 143   ED =   0.000044   EL =   0.000044   EU =   0.562500
+
+
+ END OF CASE
+ ===========
+
+
