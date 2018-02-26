@@ -30,42 +30,77 @@
           ITERATION NUMBER  1
           ----------------
 
-          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   1.0D-08
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.4D-08
 
 
                      EL         ED             AZ           NORM       DPM
-                     1s      0.1249128      1.7963836   1.0000000*   2.86D-01
-          ED =  -0.116060; ADJUSTED TO ALLOWED MINIMUM ENERGY
-                     1s      0.0000444      0.7444356   1.0000000*   5.83D-01
-                     1s      1.2029058      1.1265455   1.0000000*   2.34D-01
+                     2p      7.1328305     16.5436261   1.0000000*   4.06D-02
+                     2p      7.1172526     16.4887604   1.0000000*   2.70D-03
+                     2p      7.1190713     16.4808786   1.0000000*   5.12D-04
 
 
           ITERATION NUMBER  2
           ----------------
 
-          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.0D-08
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   4.9D-08
 
 
                      EL         ED             AZ           NORM       DPM
-                     1s      0.3320969      1.7443881   1.0000000*   1.90D-01
-          ED =  -0.090496; ADJUSTED TO ALLOWED MINIMUM ENERGY
-                     1s      0.0000444      0.6116079   1.0000000*   6.39D-01
-                     1s      0.6837836      1.8611430   1.0000000*   4.16D-01
+                     2p      7.1193232     16.4785484   1.0000000*   2.01D-04
+                     2p      7.1193969     16.4768407   1.0000000*   1.09D-04
 
 
           ITERATION NUMBER  3
           ----------------
 
-          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   4.0D-08
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   9.8D-08
 
 
                      EL         ED             AZ           NORM       DPM
-          ED =  -0.130759; ADJUSTED TO ALLOWED MINIMUM ENERGY
-          METHOD 2 UNABLE TO SOLVE EQUATION FOR ELECTRON 1s
-          NC =   2   NJ = 143   ED =   0.000044   EL =   0.000044   EU =   0.562500
-          ED =  -0.130759; ADJUSTED TO ALLOWED MINIMUM ENERGY
-          METHOD 2 UNABLE TO SOLVE EQUATION FOR ELECTRON 1s
-          NC =   2   NJ = 143   ED =   0.000044   EL =   0.000044   EU =   0.562500
+                     2p      7.1194505     16.4763407   1.0000000*   4.25D-05
+                     2p      7.1194660     16.4759773   1.0000000*   2.30D-05
+
+
+          ITERATION NUMBER  4
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   2.0D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     2p      7.1194773     16.4758714   1.0000000*   8.88D-06
+                     2p      7.1194805     16.4757948   1.0000000*   4.79D-06
+
+
+          ITERATION NUMBER  5
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   3.9D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     2p      7.1194828     16.4757725   1.0000000*   1.84D-06
+                     2p      7.1194835     16.4757564   1.0000000*   9.94D-07
+
+
+          ITERATION NUMBER  6
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   7.8D-07
+
+
+                     EL         ED             AZ           NORM       DPM
+                     2p      7.1194840     16.4757517   1.0000000*   3.82D-07
+
+
+          ITERATION NUMBER  7
+          ----------------
+
+          SCF CONVERGENCE CRITERIA (SCFTOL*SQRT(Z*NWF)) =   1.6D-06
+
+
+                     EL         ED             AZ           NORM       DPM
+                     2p      7.1194841     16.4757498   1.0000000*   2.06D-07
 
 
  END OF CASE

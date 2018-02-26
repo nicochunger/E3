@@ -1,10 +1,10 @@
 1
 
 
-         HARTREE-FOCK WAVE FUNCTIONS FOR  H     1S     Z =  1.0
+         HARTREE-FOCK WAVE FUNCTIONS FOR  C     3P     Z =  6.0
 
               Core =
-     Configuration =  1s(   2)                                        
+     Configuration =  2p(   2)                                        
 
 
          INPUT DATA
@@ -15,7 +15,7 @@
 
 
 
-       1   1s  1  0    0.5   1 0.0   0
+       1   2p  2  1    0.5   1 0.0   0
 
 
 
@@ -24,8 +24,39 @@
           NL    SIGMA      E(NL)    AZ(NL)    FUNCTIONS
 
 
-          1s     0.50      0.000     1.061    SCREENED HYDROGENIC    
+          2p     0.50      0.000    15.827    SCREENED HYDROGENIC    
 
-      LEAST SELF-CONSISTENT FUNCTION IS  1s :WEIGHTED MAXIMUM CHANGE =  3.30D-01
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  7.24D-04
 
-      LEAST SELF-CONSISTENT FUNCTION IS  1s :WEIGHTED MAXIMUM CHANGE =  5.88D-01
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  1.55D-04
+
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  3.25D-05
+
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  6.77D-06
+
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  1.41D-06
+
+      LEAST SELF-CONSISTENT FUNCTION IS  2p :WEIGHTED MAXIMUM CHANGE =  5.40D-07
+
+
+          NUMBER OF FUNCTIONS ITERATED          =     1
+          MAXIMUM WEIGHTED CHANGE IN FUNCTIONS  =  0.29D-06
+
+
+
+
+                        ATOM C        TERM 3P    
+
+  nl       E(nl)        I(nl)       KE(nl)        Rel(nl)   S(nl)       Az(nl)
+  2p     7.1194841    -4.485275     4.022509    -0.001050   0.372     16.475750
+
+
+  nl      Delta(R)     1/R**3       1/R         R        R**2
+  2p         0.000       7.8251    1.41796   0.88843    0.95338
+
+
+     TOTAL ENERGY (a.u.)
+     ----- ------
+           Non-Relativistic       -8.04501684    Kinetic        8.04501864
+           Relativistic Shift     -0.00209963    Potential    -16.09003548
+           Relativistic           -8.04711646    Ratio        -1.999999775
