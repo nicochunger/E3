@@ -1,0 +1,23 @@
+
+# this is the object defining the data values
+object 1 class array type float rank 0 items     4096 data follows
+
+# this is the object defining the grid connections
+object 2 class gridconnections counts   16  16  16
+
+
+# this is the object defining the grid 
+object 3 class gridpositions counts   16  16  16
+origin       -3.7500000000       -3.7500000000       -3.7500000000
+delta         0.0000000000        0.0000000000        0.5000000000
+delta         0.0000000000        0.5000000000        0.0000000000
+delta         0.5000000000        0.0000000000        0.0000000000
+
+# this is the collective object, one for each grid
+object 4 class field
+component "positions"   value 3
+component "connections" value 2
+component "data"        value 1
+
+# Date label : 29-JAN-2018 16:34:29 -0300
+# electron density, total

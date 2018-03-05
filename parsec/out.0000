@@ -1,0 +1,342 @@
+ Processor No            0   has started
+ Number of processors:            1
+ Laplacian number of directions:  0
+ Laplacian coefficients data:
+ 1.00  1.00  1.00  0.00  0.00  0.00
+                     ********************                    
+
+  Group partition information: 
+  I am processor rank            0  in group            0
+  I am master in my group, with master rank            0
+
+                     ********************                    
+
+ Setup messages:
+ ---------------
+ The Hamiltonian matrix size is        2176
+  reduced size is          272
+  maximum distance between grid points and their images is
+   0.000      [bohr]
+
+ There are 36 laplacian-related non-diagonal elements per row
+ The local dimension is :         272
+ INTERIOR POINTS Mvec - Prec            8         198
+ Information to be send to neighbors:
+ send proc            0  #rows:           0
+ I communicate with            0  processors, a total of            0  elements
+ I receive from these procs:            0
+
+ Non-local pseudopotential messages:
+ -----------------------------------
+ Max # of nonlocal points for one atom =           88
+
+ Sizes of all non-local blocks 
+    88    88
+
+ Transform atoms           2
+ My number of non-local rows:          176  of total          176
+  starting from Vlocal 
+# Poisson solver, return code =   0  convergence rate =   0.1559    
+ # the residual norm    1.5922614384606670E-004   1.5922614381636116E-004
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          131  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          158  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          154  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          145  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          154  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          150  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          135  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          140  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          133  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          153  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          148  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          148  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          154  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          149  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          135  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          139  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.24,      tdiag_sum =        0.00
+
+# Poisson solver, return code =   0  convergence rate =   0.1538    
+ # the residual norm    1.0535137902734216E-005   1.0535137962322718E-005
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           84  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          108  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          108  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           86  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          104  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          107  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          107  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          101  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          107  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          107  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           87  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          105  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          106  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          106  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.14,      tdiag_sum =        0.24
+
+# Poisson solver, return code =   0  convergence rate =   0.1545    
+ # the residual norm    2.8505464522906776E-006   2.8505464512895088E-006
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          100  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           86  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          111  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          111  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           87  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          104  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          110  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          110  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          102  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           85  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          109  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          109  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           90  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          105  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          109  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =          109  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.14,      tdiag_sum =        0.37
+
+# Poisson solver, return code =   0  convergence rate =   0.1545    
+ # the residual norm    2.9336453925095488E-006   2.9336454173634373E-006
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           92  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           79  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          100  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          100  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           79  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           96  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          100  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =          100  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           91  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           80  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           80  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           99  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.11,      tdiag_sum =        0.51
+
+# Poisson solver, return code =   0  convergence rate =   0.1563    
+ # the residual norm    6.1764978743126195E-007   6.1764978175910900E-007
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           81  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           72  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           87  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           87  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           69  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           90  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           89  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           89  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           71  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           89  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           88  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           70  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           88  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           86  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           87  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.09,      tdiag_sum =        0.63
+
+# Poisson solver, return code =   0  convergence rate =   0.1541    
+ # the residual norm    4.0712262253626544E-007   4.0712261482509285E-007
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           77  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           81  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           81  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           78  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           82  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           82  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           78  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           66  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           66  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           81  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           83  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.07,      tdiag_sum =        0.72
+
+# Poisson solver, return code =   0  convergence rate =   0.1574    
+ # the residual norm    3.5615652785485463E-008   3.5615611631278605E-008
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           54  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           65  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           65  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           51  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           68  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           68  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           68  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           56  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           68  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           68  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           52  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           70  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           69  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           69  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.05,      tdiag_sum =        0.79
+
+# Poisson solver, return code =   0  convergence rate =   0.1548    
+ # the residual norm    7.4224650241295388E-009   7.4224694092836632E-009
+  Eigensolver, representation =            1  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           64  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           40  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           53  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           53  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           30  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           67  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            1  iteration =            1
+  maxmvs =           66  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            1  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           64  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            2  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           52  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            3  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           53  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            4  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           53  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            5  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           53  nec =            5  nstate =            5  info =            0
+  Eigensolver, representation =            6  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           65  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            7  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           65  nec =            6  nstate =            6  info =            0
+  Eigensolver, representation =            8  k-point =            1  spin =            2  iteration =            1
+  maxmvs =           65  nec =            6  nstate =            6  info =            0
+
+ Diagonalization time [sec] :       0.04,      tdiag_sum =        0.84
+
+# Poisson solver, return code =   0  convergence rate =   0.1540    
+ # the residual norm    1.1411193549020051E-008   1.1411196178754475E-008
+  I received L =            0  for atom #           1  with mnloc =           88
+  I received L =            0  for atom #           2  with mnloc =           88
+
+ Closing file on PE #           0
+
+  Error code ierr =           -1

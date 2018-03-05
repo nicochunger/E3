@@ -1,0 +1,30 @@
+#
+# O2 dimer, d = 2.00
+# 
+#Restart_run .true.
+
+Boundary_Sphere_Radius:  4.0
+Grid_Spacing:  0.5 
+
+eigensolver: diagla
+ 
+States_Num:  10
+
+Correlation_Type: CA
+
+Atom_Types_Num:  1
+ 
+Atom_Type: O
+Local_Component: p
+begin Atom_Coord
+ 1.000000      .000000      .000000
+-1.000000      .000000      .000000
+end Atom_Coord
+
+spin_polarization: .true.
+
+
+
+ 
+
+

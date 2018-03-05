@@ -1,0 +1,6 @@
+A.S. H estructura transition - energies
+ &SALGEB MXCONF=2 MXVORB=3 RAD='E1'  &END
+ 1 0  2 0  2 1
+  1    0    0 
+  0    0    1   
+ &SMINIM NZION=1  &END

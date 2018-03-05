@@ -67,22 +67,20 @@
 
  ---------------------------------------------------------------------------------------------------------
 
- A.S. Helium - energies                                                          
+ A.S. H estructura transition - energies                                         
 
  ---------------------------------------------------------------------------------------------------------
 
 
 
-       OPTION CHOSEN, NOPTN =  3 FOR ORBITALS MXORB =  2
- BASIC CONFIGURATION   1                                     2  0
- BASIC CONFIGURATION   2                                     0  2
- BASIC CONFIGURATION   3                                     1  1
+       OPTION CHOSEN, NOPTN =  2 FOR ORBITALS MXORB =  3
+ BASIC CONFIGURATION   1                                     1  0  0
+ BASIC CONFIGURATION   2                                     0  0  1
 
-           3           2
-           1           0           2           0
-  1: 2 0
-  2: 0 2
-  3: 1 1
+           2           3
+           1           0           2           0           2           1
+  1: 1 0 0
+  2: 0 0 1
 
 
  ----------------------------------------------------------------------------------------------------------------------------------------
@@ -91,43 +89,38 @@
 
 
 
- ATOM WITH   2 ELECTRONS IN   3 CONFIGURATIONS
+ ATOM WITH   1 ELECTRONS IN   2 CONFIGURATIONS
 
 
   ATTENTION: SOME OF THE INTERNAL ORBITALS MAY HAVE BEEN REDEFINED, AND MAY NOT BE THE STANDARD CODE (K=1,2,3... FOR  1S,2S,2P...)
     K      1     2     3     4     5     6     7     8     9    10    11    12    13    14    15
-   N L    1 0   2 0
+   N L    1 0   2 0   2 1
 
 
- CONFIGURATION CF=   1,          0 ON DISK, (N-L)-COMBINATIONS     1 0   1 0
- SLATER-STATES STORED IN      2=JA      2(      2)=JB, MAXST= 150000, VCC STORED UP TO         1=MTGD, MAXDC=  1999990; MAXDF= 120; MOD=-2
-    1 SPECTROSCOPIC TERMS   (2S+1 L DP):
+ CONFIGURATION CF=   1,          0 ON DISK, (N-L)-COMBINATIONS     1 0
+ SLATER-STATES STORED IN      2=JA      2(      3)=JB, MAXST= 150050, VCC STORED UP TO         1=MTGD, MAXDC=  1999990; MAXDF= 120; MOD=-2
+    1 SPECTROSCOPIC TERMS   (2S+1 L DP):     2 0  1
 
 
- CONFIGURATION CF=   2,          0 ON DISK, (N-L)-COMBINATIONS     2 0   2 0
- SLATER-STATES STORED IN      3=JA      3(      3)=JB, MAXST= 150000, VCC STORED UP TO         2=MTGD, MAXDC=  1999990; MAXDF= 120; MOD=-2
-    1 SPECTROSCOPIC TERMS   (2S+1 L DP):
+ CONFIGURATION CF=   2,          0 ON DISK, (N-L)-COMBINATIONS     2 1
+ SLATER-STATES STORED IN      3=JA      4(      8)=JB, MAXST= 150050, VCC STORED UP TO         3=MTGD, MAXDC=  1999990; MAXDF= 120; MOD=-2
+    1 SPECTROSCOPIC TERMS   (2S+1 L DP):     2 1  1
 
 
- CONFIGURATION CF=   3,          0 ON DISK, (N-L)-COMBINATIONS     1 0   2 0
- SLATER-STATES STORED IN      4=JA      6(      7)=JB, MAXST= 150000, VCC STORED UP TO         7=MTGD, MAXDC=  1999990; MAXDF= 120; MOD=-2
-    2 SPECTROSCOPIC TERMS   (2S+1 L DP):
-
-
-     6=TERMS     MAXCT=  3000          10         =JB, MXST0= 150050                          11=MTGD, MAXDC=  1999990 BUFFER STORAGE USED
+     2=TERMS     MAXCT=  3000           0         =JB, MXST0= 150050                           3=MTGD, MAXDC=  1999990 BUFFER STORAGE USED
 
 
     T 2S+1  L  (P-0/1 FOR EVEN/ODD)        CF    NT GR                    **** TERM TABLE ****
-                                                         GROUP=  1    2S+1= 3  L= 0   PI= 0    NC=    1
+                                                         GROUP=  1    2S+1= 2  L= 1   PI= 1    NC=    1
 
 
-                                                         GROUP=  2    2S+1= 1  L= 0   PI= 0    NC=    3
+                                                         GROUP=  2    2S+1= 2  L= 0   PI= 0    NC=    1
 
 
 
-                                                                            (    3)        3       MAXDI=      300
+                                                                            (    1)        1       MAXDI=      300
 
-                                                                        (       10)       10       MAXUC=   350000
+                                                                        (        2)        2       MAXUC=   350000
 
                                                                                            0       MXAAI=    22500
 
@@ -135,17 +128,23 @@
  SLATER COEFFICIENTS  F(A,...)  FOR CONSTRUCTING   ( T !  H  ! TP ) = SUM( F(A,...) * R(A,...) );   NCYC=0: COMMON DIAGONAL CORE TERM
    199000300  3000  3000   450000 9998 STORAGE RESTRICTIONS FOR (MAXAD,MAXSL,MAXTM,MAXTM,MAXRK,MAXRL), MXDFS=300
      NCYC GR     T    TP      MNF  MNR   I(R)  F(A,...)   I(R)  F(A,...)   I(R)  F(A,...)   I(R)  F(A,...)   I(R)  F(A,...)   I(R)  F(A,...)
-        7  2     4     4       11    7
+        2  2     2     2        0    0
 
- SLATER STATE INTERACTION STORAGE (MXRKS,MXRLS)   450000  9998          USED:       14     7
+ SLATER STATE INTERACTION STORAGE (MXRKS,MXRLS)   450000  9998          USED:        0     0
 
                                                                                                0=MTGD, MAXDC=  1999990 BUFFER STORAGE USED
 
- *** PRINTOUT OF COEFFICIENTS SUPPRESSED - MPRINT(MODULO 5)=-2
+ *** PRINTOUT OF COEFFICIENTS SUPPRESSED - MPRINT(MODULO 5)=-1
 
+  IOSC     T    TP    B   D      MNF
+     1     2     2    1   1        1
 
- SR.ALGEB2: RADIATIVE CALCULATIONS SKIPPED
-            ******************************
+ SLATER STATE INTERACTION STORAGE (MXRKS,MXRLS)   450000  9998          USED:        1     1
+
+                                                                                               0=MTGD, MAXDC=  1999990 BUFFER STORAGE USED
+
+ *** PRINTOUT OF COEFFICIENTS SUPPRESSED - MPRINT(MODULO 5)=-1
+
 
  NOT ENOUGH VCC'S AVAILABLE FOR CALCULATION OF RELATIVISTIC CORRECTIONS: CHANGE MOD  TO 1,-1 OR 0
 
@@ -155,46 +154,36 @@
 
 
 
- RADIAL FUNCTIONS:   PRECISION OF EIGENVALUE IS 1.00E-07       736 POINTS (MSTEP=11);  ATOMIC NUMBER  2,   NUMBER OF ELECTRONS  2
-                       NL =  1 0    S.M.-POTENTIAL V(NL) WITH SCALE FACTOR   1.00000;  COULOMBIC BEYOND R(IEND=  206) =  2.646292
-       OVERLAP INTEGRAL      2 0 WITH 1 0 = -2.9171E-08
+ RADIAL FUNCTIONS:   PRECISION OF EIGENVALUE IS 1.00E-07       736 POINTS (MSTEP=11);  ATOMIC NUMBER  1,   NUMBER OF ELECTRONS  1
+                       NL =  1 0    S.M.-POTENTIAL V(NL) WITH SCALE FACTOR   1.00000;  COULOMBIC BEYOND R(IEND=    1) =  0.000574
 
 
- GAM ( N,  L,NION, Z,SIG/D/P)  EPSILON/RY      <1/R>  <Z/R-V>      <R>   <R**2>   <R**3>   (ADJUST, REND, 3 LAST P), IN    487 STEPS
-   1   1   0   2   2  0.61141     -1.92819   1.69911  0.98602  0.91240   1.1398   1.8185    1.0000  2.65  1.00E-19 8.53E-20 7.27E-20
-   2   2   0   2   2  0.86889     -0.31985   0.30473  0.26602  4.72696  26.2125 165.5933    1.0000  2.65 -1.17E-06-1.11E-06-1.04E-06
-                                                                                        R OF 3 LAST P(R):  34.1394  34.2560  34.3726
-
- I(R)   R(  A,  B,   C,  D, 2LBD ) = SLATER-INTEGRALS    (2LAMBDA=-1 DENOTES ONE-BODY INTEGRALS <A!-D**2/DR**2+L(L+1)/R**2-2Z/R!C>)
-    1       2   1    2   1     0     0.2679130
-    2       2   2    1   1     0     0.0216590
-    3       1   1    1   1     0     1.0393205
-    4       2   2    2   2     0     0.1911979
-    5       2   0    1   0    -1    -0.1099831
-    6       2   1    1   1     0     0.1187332
-    7       2   2    1   2     0     0.0063909
+ GAM ( N,  L,NION, Z,SIG/D/P)  EPSILON/RY      <1/R>  <Z/R-V>      <R>   <R**2>   <R**3>   (ADJUST, REND, 3 LAST P), IN    458 STEPS
+   1   1   0   1   1 -0.00000     -1.00000   1.00000 -0.00000  1.50000   3.0000   7.5000    1.0000  0.00  1.15E-15 9.95E-16 8.62E-16
+   3   2   1   1   1  0.00000     -0.25000   0.25000 -0.00000  5.00000  30.0000 210.0000    1.0000  0.00  1.18E-06 1.10E-06 1.03E-06
+                                                                                        R OF 3 LAST P(R):  38.7511  38.8981  39.0450
 
  DIPOLE LENGTH INTEGRALS (K=1, FOR /L-L'/=1)  AND QUADRUPOLE (K=2) INTEGRALS  <NL! R**K !N'L'>; ('N**' STANDS FOR: NL NOT COMPUTED)
         ABOVE THE DIAGONAL ARE VELOCITY INTEGRALS <NL! 2*D/DR+(L'(L'+1)-L(L+1))/R !N'L'>      
-   N L    1 0     2 0
-   1 0    0.0000  0.0000
-   2 0    0.0000  0.0000
+   N L    1 0     2**     2 1
+   1 0    0.0000  0.0000  0.9677
+   2**    0.0000  0.0000  0.0000
+   2 1    1.2903  0.0000  0.0000
 
 
    T,2S+1L (P)  H(ZZ)/2RY   EIGEN-H/2RY   CF NI  NO   MATRIX <GSL!CASL>  AND  H(Z)/2RY-TRIANGLE.  E(CORE)/2RY =   0.00000     0.0000
-   1  3  0  0      -2.37606     -2.129808  3  1   1   1.0000  0.2463
-   2  1  0  0      -3.90022     -2.861365  1  1   1   0.9998 -0.0110 -0.0181  1.0393
-   3  1  0  0      -0.85190     -0.645620  2  1   2   0.0092  0.9948 -0.1011  0.0217  0.1912
-   4  1  0  0      -2.37606     -2.101111  3  2   3   0.0191  0.1009  0.9947  0.0124 -0.1465  0.2896
+   1  2  1  1      -0.12500     -0.125000  2  1   1   1.0000  0.0000
+   2  2  0  0      -0.50000     -0.500000  1  1   1   1.0000  0.0000
  CORE CONTRIB.       0.0000     0.00000
 
 
-     0 (IF .GT. 0: LOWEST STAT-WEIGHTED) TERMS ARE MINIMIZED;    SCALING PARAMETERS   1.00000  1.00000
-         I         T        K*CM  2S+1 L   CF     WEIGHTS        (EI-E1)/RY     E1/RY =     -5.722731
-         1         2           0.    1 0    1       0.000          0.000000
-         2         1      160558.    3 0    3       0.000          1.463114
-         3         4      166857.    1 0    3       0.000          1.520509
-         4         3      486300.    1 0    2       0.000          4.431491
+     0 (IF .GT. 0: LOWEST STAT-WEIGHTED) TERMS ARE MINIMIZED;    SCALING PARAMETERS   1.00000  1.00000  1.00000
+         I         T        K*CM  2S+1 L   CF     WEIGHTS        (EI-E1)/RY     E1/RY =     -1.000000
+         1         2           0.    2 0    1       0.000          0.000000
+         2         1       82303.   -2 1    2       0.000          0.750000
+
+   E1-DATA  I  IP      A(EK)*SEC         S                G*F        F(ABS)   -F(EMI)    WAVEL/AE     GF(VEL)  V(GFL*GFV)     GF(ACC)  ALPHA(POL)
+    1       2   1     -6.268E+08    -3.3295745       -0.832394     -0.41620  -0.13873   1215.0228      0.8324      0.8324     -0.8324      2.9596
 
 
          INCLUD =    0         FUNCTIONAL F = 0.0000000E+00         FUNCTIONAL G = 0.000E+00 (   0 TRANSITIONS)         LS.JPRINT=-1
