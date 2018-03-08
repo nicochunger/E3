@@ -2,9 +2,9 @@ from numpy import arange, linspace, savetxt, array
 import subprocess
 
 xmin = 0.3
-xmax = 4.
-npts = 700
-x = linspace(0.3,4,npts)
+xmax = 5.
+npts = 400
+x = linspace(xmin,xmax,npts)
 print "Distancias a analizar desde {:.3f} hasta {:.3f}".format(x[0],x[-1])
 energias = []
 
@@ -49,4 +49,4 @@ for num in x:
 
 # Guardo los datos en un archivo de texto
 d_e = array([x, energias])
-savetxt("energias.txt", d_e, delimiter=",")
+savetxt("energias2.txt", d_e, delimiter=",")

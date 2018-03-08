@@ -3,8 +3,8 @@
 # 
 #Restart_run .true.
 
-Boundary_Sphere_Radius:  4.0
-Grid_Spacing:  0.5 
+Boundary_Sphere_Radius:  5.0
+Grid_Spacing:  0.4 
 
 eigensolver: diagla
  
@@ -17,11 +17,10 @@ Atom_Types_Num:  1
 Atom_Type: F
 Local_Component: p
 begin Atom_Coord
- 1.492500      .000000      .000000
--1.492500      .000000      .000000
+ 5.000000      .000000      .000000
+-5.000000      .000000      .000000
 end Atom_Coord
 
-Net_Charges -1
 spin_polarization: .true.
 
 
